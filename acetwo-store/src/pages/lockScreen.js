@@ -1,15 +1,17 @@
 import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "../styles/lockScreen.css"; 
+import passwordData from "../data/password.json"
 
 const LockScreen = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
+  const storedPassword = passwordData.password;
 
   const handleUnlock = () => {
-    if (password === "yourPassword") {
+    if (password === storedPassword) {
       sessionStorage.setItem("authenticated", "true");
-      navigate("/store");
+      navigate("/home");
     } else {
       alert("Incorrect password");
     }
@@ -32,7 +34,7 @@ const LockScreen = () => {
         </button>
       </div>
       <div className="lockscreen-links">
-        <Link to="/faq" className="lockscreen-link">FAQ</Link> |
+        <Link to="/support" className="lockscreen-link">Customer Support</Link> |
         <Link to="/policies" className="lockscreen-link">Policies</Link>
       </div>
     </div>

@@ -1,0 +1,217 @@
+{
+  "collections": [
+    {
+      "collectionName": "Panda Collection",
+      "products": [
+        {
+          "id": 1,
+          "name": "Precision Fitted T-Shirt - Black",
+          "description": "",
+          "price": 45,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/PrecisionTee/tee_front.png",
+          "imageUrl2": "/products/PrecisionTee/tee_back.png"
+        },
+        {
+          "id": 2,
+          "name": "Momentum 1/2 Zip Jumper - Black",
+          "description": "",
+          "price": 85,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/MomentumJumper/zip_front.png",
+          "imageUrl2": "/products/MomentumJumper/zip_back.png"
+        },
+        {
+          "id": 3,
+          "name": "Defiance Hoodie - Black",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/DefienceHoodie/hoodie_front.png",
+          "imageUrl2": "/products/DefienceHoodie/hoodie_back.png"
+        },
+        {
+          "id": 4,
+          "name": "Defiance Heavyweight Hoodie - Black",
+          "description": "",
+          "price": 100,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/DefienceHeavyHoodie/heavyweight_front.png",
+          "imageUrl2": "/products/DefienceHeavyHoodie/heavyweight_back.png"
+        },
+        {
+          "id": 5,
+          "name": "Resilience Hooded Vest - Black",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/ResilienceVest/vest_front.png",
+          "imageUrl2": "/products/ResilienceVest/vest_back.png"
+        }
+      ]
+    },
+    {
+      "collectionName": "Outshine Collection",
+      "products": [
+        {
+          "id": 6,
+          "name": "Outshine Hat - Black",
+          "description": "",
+          "price": 25,
+          "salePrice": null,
+          "sale": true,
+          "outOfStock": false,
+          "imageUrl": "/products/OutshineHat/BlackHat/Front.png",
+          "imageUrl2": "/products/OutshineHat/BlackHat/Back.png"
+        },
+        {
+          "id": 7,
+          "name": "Outshine Hat - White",
+          "description": "",
+          "price": 25,
+          "salePrice": null,
+          "sale": true,
+          "outOfStock": false,
+          "imageUrl": "/products/OutshineHat/WhiteHat/Front.png",
+          "imageUrl2": "/products/OutshineHat/WhiteHat/Back.png"
+        },
+        {
+          "id": 8,
+          "name": "Outshine Hat - Pink",
+          "description": "",
+          "price": 25,
+          "salePrice": null,
+          "sale": true,
+          "outOfStock": false,
+          "imageUrl": "/products/OutshineHat/PinkHat/Front.png",
+          "imageUrl2": "/products/OutshineHat/PinkHat/Back.png"
+        },
+        {
+          "id": 9,
+          "name": "Outshine 1/4 Zip Jacket - Black",
+          "description": "",
+          "price": 90,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/OutshineSet/BlackJacket/BlackFront.png",
+          "imageUrl2": "/products/OutshineSet/BlackJacket/BlackBack.png"
+        },
+        {
+          "id": 10,
+          "name": "Outshine 1/4 Zip Jacket - White",
+          "description": "",
+          "price": 90,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": false,
+          "imageUrl": "/products/OutshineSet/WhiteJacket/WhiteFront.png",
+          "imageUrl2": "/products/OutshineSet/WhiteJacket/WhiteBack.png"
+        },
+        {
+          "id": 11,
+          "name": "Outshine 1/4 Zip Jacket - Pink",
+          "description": "",
+          "price": 90,
+          "salePrice": 70,
+          "sale": true,
+          "outOfStock": false,
+          "imageUrl": "/products/OutshineSet/PinkJacket/PinkFront.png",
+          "imageUrl2": "/products/OutshineSet/PinkJacket/PinkBack.png"
+        },
+        {
+          "id": 12,
+          "name": "Outshine Track Pants - Black",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/OutshineSet/BlackPants/BlackFront.png",
+          "imageUrl2": "/products/OutshineSet/BlackPants/BlackBack.png"
+        },
+        {
+          "id": 13,
+          "name": "Outshine Track Pants - White",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/OutshineSet/WhitePants/WhiteFront.png",
+          "imageUrl2": "/products/OutshineSet/WhitePants/WhiteBack.png"
+        },
+        {
+          "id": 14,
+          "name": "Outshine Track Pants - Pink",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": true,
+          "imageUrl": "/products/OutshineSet/PinkPants/PinkFront.png",
+          "imageUrl2": "/products/OutshineSet/PinkPants/PinkBack.png"
+        }
+      ]
+    },
+    {
+      "collectionName": "Legacy Collection",
+      "products": [
+        {
+          "id": 15,
+          "name": "Legacy Jersey - Black",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": false,
+          "imageUrl": "/images/tshirt.jpg",
+          "imageUrl2": "/images/tshirt.jpg"
+        },
+        {
+          "id": 16,
+          "name": "Legacy Jersey - Brown",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": false,
+          "imageUrl": "/images/tshirt.jpg",
+          "imageUrl2": "/images/tshirt.jpg"
+        },
+        {
+          "id": 17,
+          "name": "Legacy Jersey - Blue",
+          "description": "",
+          "price": 80,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": false,
+          "imageUrl": "/images/tshirt.jpg",
+          "imageUrl2": "/images/tshirt.jpg"
+        },
+        {
+          "id": 18,
+          "name": "Icon Cargo Pants - Black",
+          "description": "",
+          "price": 100,
+          "salePrice": null,
+          "sale": false,
+          "outOfStock": false,
+          "imageUrl": "/images/tshirt.jpg",
+          "imageUrl2": "/images/tshirt.jpg"
+        }
+      ]
+    }
+  ]
+}

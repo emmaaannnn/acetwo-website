@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import LockScreen from "./pages/lockScreen";
-import Store from "./pages/store";
-import FAQ from "./pages/FAQ";
+import Store from "./pages/home";
+import FAQ from "./pages/support";
 import Policies from "./pages/policies";
 import ProtectedRoute from "./components/protectedRoute";
 
@@ -11,10 +11,10 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<LockScreen />} />
-        <Route path="/faq" element={<FAQ />} />
+        <Route path="/support" element={<FAQ />} />
         <Route path="/policies" element={<Policies />} />
         <Route
-          path="/store"
+          path="/home"
           element={
             <ProtectedRoute>
               <Store />

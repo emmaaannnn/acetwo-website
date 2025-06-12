@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
-import "../styles/page.css"; // Standard CSS for text pages
+import ProductList from "../components/productList";
+import "../styles/home.css"; // Import CSS file
 
-const Policies = () => {
+const Home = () => {
   return (
-    <div className="standard-container">
+    <div className="home-container">
       <header className="header">
         <div className="header-content">
           <div className="home-links">
@@ -17,9 +18,10 @@ const Policies = () => {
         </div>
       </header>
 
-      
+      <ProductList collectionName="Outshine Collection" />
+      <ProductList collectionName="Panda Collection" />
     </div>
   );
 };
 
-export default Policies;
+export default Home;
