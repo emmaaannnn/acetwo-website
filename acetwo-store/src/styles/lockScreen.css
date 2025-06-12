@@ -1,0 +1,64 @@
+/* -------- WEBSITE Styles -------- */
+
+.lockscreen-container {
+  background-image: url('../assets/Cops.gif');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.lockscreen-content {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center;
+  justify-content: center;
+}
+
+.lockscreen-title {
+  position: fixed;
+  top: 0;
+  color: white;
+}
+
+.lockscreen-logo {
+  width: 250px;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.lockscreen-input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.lockscreen-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.lockscreen-links {
+  position: absolute;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+  color: white;
+}
+
+.lockscreen-link {
+  margin: 0 10px;
+  color: white;
+}
+
+/* -------- SMARTPHONE Styles -------- */
