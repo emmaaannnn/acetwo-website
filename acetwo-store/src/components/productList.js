@@ -14,7 +14,7 @@ const ProductList = ({ collectionName }) => {
     <div className="product-list">
       {collection ? (
         <>
-          <h2>{collection.collectionName}</h2>
+          <h2 className= "collection-title">{collection.collectionName}</h2>
           <div className="grid-container">
             {collection.products.map((product) => (
               <Product key={product.id} product={product} onSelect={setSelectedProduct} />

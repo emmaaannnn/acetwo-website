@@ -3,9 +3,12 @@
 .standard-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    padding: 40px 20px;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    color: white;
 }
+
 /* Header */
 .header {
     width: 100%;
