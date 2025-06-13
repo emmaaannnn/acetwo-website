@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Product from "./product";
 import productsData from "../data/products.json";
+import ProductModal from "./productModal";
 
 const ProductList = ({ collectionName }) => {
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -25,17 +26,8 @@ const ProductList = ({ collectionName }) => {
         <p>Collection not found.</p>
       )}
 
-      {/* Modal for Selected Product */}
       {selectedProduct && (
-        <div className="modal-overlay" onClick={() => setSelectedProduct(null)}>
-          <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-            <h2>{selectedProduct.name}</h2>
-            <img src={selectedProduct.imageUrl} alt={selectedProduct.name} />
-            <p>{selectedProduct.description}</p>
-            <p><strong>Price:</strong> ${selectedProduct.sale ? selectedProduct.salePrice : selectedProduct.price}</p>
-            <button onClick={() => setSelectedProduct(null)}>Close</button>
-          </div>
-        </div>
+        <ProductModal product={selectedProduct} onClose={() => setSelectedProduct(null)} />
       )}
     </div>
   );
