@@ -1,0 +1,12 @@
+.magnifier-container {
+  position: relative;
+  overflow: hidden;
+  width: 300px; /* Adjust size as needed */
+  height: 400px;
+  cursor: zoom-in;
+}
+
+.magnifier-image {
+  width: 100%;
+  transition: transform 0.2s ease-in-out;
+}

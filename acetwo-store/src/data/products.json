@@ -66,7 +66,7 @@
         {
           "id": 6,
           "name": "Outshine Hat - Black",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -78,7 +78,7 @@
         {
           "id": 7,
           "name": "Outshine Hat - White",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -90,7 +90,7 @@
         {
           "id": 8,
           "name": "Outshine Hat - Pink",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -102,7 +102,7 @@
         {
           "id": 9,
           "name": "Outshine 1/4 Zip Jacket - Black",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": null,
           "sale": false,
@@ -113,7 +113,7 @@
         {
           "id": 10,
           "name": "Outshine 1/4 Zip Jacket - White",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": null,
           "sale": false,
@@ -125,7 +125,7 @@
         {
           "id": 11,
           "name": "Outshine 1/4 Zip Jacket - Pink",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": 70,
           "sale": true,
@@ -137,7 +137,7 @@
         {
           "id": 12,
           "name": "Outshine Track Pants - Black",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -148,7 +148,7 @@
         {
           "id": 13,
           "name": "Outshine Track Pants - White",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -159,7 +159,7 @@
         {
           "id": 14,
           "name": "Outshine Track Pants - Pink",
-          "description": "",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
