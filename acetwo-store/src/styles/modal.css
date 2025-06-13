@@ -19,12 +19,20 @@
     text-align: left;
     background-color: #fff;
     color: #000;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     width: 90%;
-    max-width: 600px; /* Wider modal */
+    max-width: 700px; /* Wider modal */
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
     animation: fadeIn 0.3s ease-in-out;
+}
+
+.modal-title {
+    margin-top: 0px;
+    font-size: 1.8rem; /* Slightly larger title */
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 /* Container for Image & Info */
@@ -76,9 +84,16 @@
 }
 
 /* Price Section */
+.modal-description p {
+    font-size: 15px;
+    font-weight: 500;
+}
+
 .modal-price {
     font-size: 18px;
     margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 .original-price {
@@ -88,11 +103,6 @@
 }
 
 /* Available Sizes */
-.modal-sizes p {
-    margin: 0 0 5px;
-    font-weight: bold;
-}
-
 .size-list {
     display: flex;
     gap: 10px;
@@ -113,6 +123,7 @@
     font-weight: bold;
     font-size: 1.1rem;
     margin: 20px 0;
+    text-align: center;
 }
 
 /* Buttons Container */
@@ -142,6 +153,7 @@
 
 /* Close Button */
 .close-button {
+    margin-top: 10px;
     padding: 8px 20px;
     background-color: transparent;
     border: 2px solid black;

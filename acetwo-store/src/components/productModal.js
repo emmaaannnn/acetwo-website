@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Magnifier from "./magnifier"; // Ensure this path is correct
 import "../styles/home.css"; // or create a dedicated modal CSS
 
 const ProductModal = ({ product, onClose }) => {
@@ -16,7 +17,7 @@ const ProductModal = ({ product, onClose }) => {
         <div className="modal-body">
             {/* Left: Main Image & Thumbnails */}
             <div className="modal-image-container">
-                <img src={mainImage} alt={product.name} className="modal-main-image" />
+                <Magnifier className="modal-main-image" imageSrc={mainImage} alt={product.name} />
                 <div className="thumbnail-row">
                 <img
                     src={product.imageUrl}
@@ -38,7 +39,7 @@ const ProductModal = ({ product, onClose }) => {
                 {/* Description */}
                 <div className="modal-description"> 
                     <h4>Description:</h4>
-                    <p>{product.description}</p>
+                    <p dangerouslySetInnerHTML={{ __html: product.description }}></p>
                 </div>
 
                 {/* Price */}
@@ -56,12 +57,12 @@ const ProductModal = ({ product, onClose }) => {
                 {/* Availability */}
                 {product.outOfStock ? (
                 <div className="modal-sizes">
-                    <p>Available Sizes:</p>
+                    <h4>Available Sizes:</h4>
                     <p className="modal-sold-out">SOLD OUT</p>
                 </div>
                 ) : (
                 <div className="modal-sizes">
-                    <p>Available Sizes:</p>
+                    <h4>Available Sizes:</h4>
                     <div className="size-list">
                         {product.availableSizes.map((size) => (
                             <span key={size} className="size-pill">{size}</span>
