@@ -1,6 +1,7 @@
 /* Basic Body */
 body {
     background-color: black; 
+    background-image: url('../assets/VHS.gif');
     margin: 0; 
     padding: 0;
     color: white;
@@ -13,12 +14,11 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: black;
     min-height: 100vh;
-    width: 100vw;
     color: white;
 }
 
+/* Header */
 .header {
     width: 100%;
     padding: 20px 0;
@@ -61,7 +61,20 @@ body {
     text-decoration: underline;
 }
 
-/* PRODUCTS */
+/* PRODUCTS GRID*/
+.product-list {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px
+}
+
+.collection-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -71,25 +84,25 @@ body {
     justify-content: center;
 }
 
+/* Product Card */
 .product-card {
     padding: 15px;
-    border-radius: 10px;
-    text-align: center;
     cursor: pointer;
     transition: transform 0.2s;
+    /* background-color: #50471d; */
 }
 
 .product-card:hover {
     transform: scale(1.05);
 }
 
+/* Image */
 .image-wrapper {
     position: relative;
     width: 100%;
     width: 200px;
     height: 200px;
 }
-
 .product-image {
     position: absolute;
     top: 0;
@@ -99,7 +112,6 @@ body {
     border-radius: 5px;
     filter: drop-shadow(0 0 10px white);
 }
-
 .product-image.back {
     opacity: 0;
 }
@@ -110,20 +122,43 @@ body {
     opacity: 1;
 }
 
+/* Title */
 .product-title {
     font-size: 16px;
     font-weight: bold;
     margin-top: 10px;
 }
-
 .product-card:hover .product-title {
     text-decoration: underline;
 }
 
+/* Price */
 .product-price {
     font-size: 14px;
     margin-top: 5px;
+    text-align: center;
 }
+
+.sold-out {
+    color: red;
+    font-weight: bold;
+}
+
+.original-price {
+    text-decoration: line-through;
+    color: gray;
+    margin-right: 8px;
+}
+
+.sale-price {
+    color: green;
+    font-weight: bold;
+}
+
+.sale-title {
+    color: green;
+}
+
 
 /* Modal Styles  */
 .modal-overlay {
