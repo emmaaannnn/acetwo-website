@@ -70,6 +70,7 @@
           "price": 35,
           "salePrice": 25,
           "sale": true,
+          "availableSizes": ["One Size Fits All"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineHat/BlackHat/Front.png",
           "imageUrl2": "/products/OutshineHat/BlackHat/Back.png"
@@ -81,6 +82,7 @@
           "price": 35,
           "salePrice": 25,
           "sale": true,
+          "availableSizes": ["One Size Fits All"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineHat/WhiteHat/Front.png",
           "imageUrl2": "/products/OutshineHat/WhiteHat/Back.png"
@@ -92,6 +94,7 @@
           "price": 35,
           "salePrice": 25,
           "sale": true,
+          "availableSizes": ["One Size Fits All"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineHat/PinkHat/Front.png",
           "imageUrl2": "/products/OutshineHat/PinkHat/Back.png"
@@ -114,6 +117,7 @@
           "price": 90,
           "salePrice": null,
           "sale": false,
+          "availableSizes": ["S", "M", "L", "XL", "XXL"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineSet/WhiteJacket/WhiteFront.png",
           "imageUrl2": "/products/OutshineSet/WhiteJacket/WhiteBack.png"
@@ -125,6 +129,7 @@
           "price": 90,
           "salePrice": 70,
           "sale": true,
+          "availableSizes": ["S", "M", "L", "XL", "XXL"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineSet/PinkJacket/PinkFront.png",
           "imageUrl2": "/products/OutshineSet/PinkJacket/PinkBack.png"

@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import ProductList from "../components/productList";
 import "../styles/home.css"; // Import CSS file
+import "../styles/modal.css"; // Import modal styles
 
 const Home = () => {
   return (
