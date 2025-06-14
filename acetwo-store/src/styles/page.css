@@ -81,4 +81,14 @@ p {
     margin-bottom: 20px;
 }
 
-/* -------- SMARTPHONE Styles -------- */
+/* -------- TABLET Styles -------- */
+@media (max-width: 768px) {
+    
+}
+
+
+
+/* -------- MOBILE Styles -------- */
+@media (max-width: 425px) {
+
+}

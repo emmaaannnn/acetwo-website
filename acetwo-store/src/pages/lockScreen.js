@@ -7,13 +7,14 @@ const LockScreen = () => {
   const [password, setPassword] = useState("");
   const navigate = useNavigate();
   const storedPassword = passwordData.password;
+  const [error, setError] = useState("");
 
   const handleUnlock = () => {
     if (password === storedPassword) {
       sessionStorage.setItem("authenticated", "true");
       navigate("/home");
     } else {
-      alert("Incorrect password");
+      setError("Incorrect password. Please try again.");
     }
   };
 
@@ -22,7 +23,13 @@ const LockScreen = () => {
       <div className="lockscreen-content">
         <h1 className="lockscreen-title">Welcome to ACETWO</h1>
         <img src="/logo2.gif" alt="ACETWO Logo" className="lockscreen-logo" />
-        
+
+        {error && (
+          <div className="lockscreen-error">
+            {error}
+          </div>
+        )}
+
         <div className= "password-input-container">
           <input
             type="password"

@@ -155,4 +155,14 @@ body {
     font-weight: bold;
 }
 
-/* -------- SMARTPHONE Styles -------- */
+/* -------- TABLET Styles -------- */
+@media (max-width: 768px) {
+    
+}
+
+
+
+/* -------- MOBILE Styles -------- */
+@media (max-width: 425px) {
+
+}

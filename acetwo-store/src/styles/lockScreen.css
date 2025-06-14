@@ -36,6 +36,16 @@
   margin-bottom: 20px;
 }
 
+.lockscreen-error {
+  background-color: #f58f88; /* Light red */
+  color: white;
+  padding: 12px 16px;
+  margin-top: 10px;
+  font-weight: 500;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  width: 268px;
+}
+
 .lockscreen-input {
   padding: 10px;
   font-size: 16px;
@@ -61,4 +71,29 @@
   color: white;
 }
 
-/* -------- SMARTPHONE Styles -------- */
+/* -------- TABLET Styles -------- */
+@media (max-width: 768px) {
+  .lockscreen-title {
+    font-size: 2rem; /* Adjust title size for tablet */
+  }
+}
+
+
+
+/* -------- MOBILE Styles -------- */
+@media (max-width: 425px) {
+  .lockscreen-title {
+    font-size: 1.5rem;
+  }
+
+  .lockscreen-input {
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 50%; /* Adjust input width for mobile */
+  }
+
+  .lockscreen-error {
+    width: 223px;
+  }
+}
