@@ -1,15 +1,24 @@
 import { Link } from "react-router-dom";
 import "../styles/page.css"; // Standard CSS for text pages
+import React, { useState } from "react";
 
 const Policies = () => {
+  const [showMenu, setShowMenu] = useState(false);
+  
   return (
     <div className="standard-container">
       <header className="header">
         <div className="header-content">
-          <div className="home-links">
-            <Link to="/home">Home</Link>
-            <Link to="/support">Customer Support</Link>
-            <Link to="/policies">Policies</Link>
+          <div className="home-links-wrapper">
+            <div className="menu-toggle" onClick={() => setShowMenu(prev => !prev)}>
+              ☰
+            </div>
+
+            <div className={`home-links ${showMenu ? "show" : ""}`}>
+              <Link to="/home">Home</Link>
+              <Link to="/support">Customer Support</Link>
+              <Link to="/policies">Policies</Link>
+            </div>
           </div>
           <div className="logo-container">
             <img src="/logo2.gif" alt="ACETWO Logo" className="home-logo" />
