@@ -6,7 +6,7 @@
         {
           "id": 1,
           "name": "Precision Fitted T-Shirt - Black",
-          "description": "",
+          "description": "<p>Crafted with liquid cotton, this precision-fitted tee delivers an ultra-soft touch with a sleek, tailored silhouette. Designed for those who appreciate subtle luxury, it’s smooth, breathable, and built to move with you.</p><p><b>Luxury in simplicity. Elevate your essentials. Take What's Ours.</b></p>",
           "price": 45,
           "salePrice": null,
           "sale": false,
@@ -17,7 +17,7 @@
         {
           "id": 2,
           "name": "Momentum 1/2 Zip Jumper - Black",
-          "description": "",
+          "description": "<p>Crafted with high-quality materials, this cropped jumper delivers a sleek, modern fit with an adjustable waist for customizable styling. Whether layered or worn solo, it moves with you—effortless, refined, and built for momentum.</p><p><b>Luxury in Simplicity. Elevate your essentials. Take What's Ours.</b></p>",
           "price": 85,
           "salePrice": null,
           "sale": false,
@@ -28,7 +28,7 @@
         {
           "id": 3,
           "name": "Defiance Hoodie - Black",
-          "description": "",
+          "description": "<p>Crafted from high-quality cotton, the Defiance Hoodie delivers unmatched softness and durability. Designed for those who move with purpose, its sleek fit and premium feel redefine everyday comfort.</p><p><b>Luxury in simplicity. Elevate your essentials. Take What's Ours.</b></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -39,7 +39,7 @@
         {
           "id": 4,
           "name": "Defiance Heavyweight Hoodie - Black",
-          "description": "",
+          "description": "<p>Built with double-layered cotton, this hoodie delivers unmatched warmth, durability, and premium comfort. Whether pushing limits or embracing the everyday, its structured fit and high-quality feel redefine effortless style.</p><p><b>Luxury in simplicity. Elevate your essentials. Take What's Ours.</b></p>",
           "price": 100,
           "salePrice": null,
           "sale": false,
@@ -50,7 +50,7 @@
         {
           "id": 5,
           "name": "Resilience Hooded Vest - Black",
-          "description": "",
+          "description": "<p>Engineered for premium durability, this hooded vest blends functionality with modern design. Crafted for those who move with purpose, its structured fit and high-quality build provide effortless versatility.</p><p><b>Luxury in simplicity. Elevate your essentials. Take What's Ours.</b></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -66,7 +66,7 @@
         {
           "id": 6,
           "name": "Outshine Hat - Black",
-          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. </p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -78,7 +78,7 @@
         {
           "id": 7,
           "name": "Outshine Hat - White",
-          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. </p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -90,7 +90,7 @@
         {
           "id": 8,
           "name": "Outshine Hat - Pink",
-          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. Wherever you go, shine brighter and own the moment.</p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
+          "description": "<p>Reflective detailing. Premium craftsmanship. Designed for those who defy limits. </p><p><b>Own the moment. Shine brighter. Take What’s Ours.</b></p>",
           "price": 35,
           "salePrice": 25,
           "sale": true,
@@ -102,7 +102,7 @@
         {
           "id": 9,
           "name": "Outshine 1/4 Zip Jacket - Black",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. </p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": null,
           "sale": false,
@@ -113,7 +113,7 @@
         {
           "id": 10,
           "name": "Outshine 1/4 Zip Jacket - White",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. </p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": null,
           "sale": false,
@@ -125,7 +125,7 @@
         {
           "id": 11,
           "name": "Outshine 1/4 Zip Jacket - Pink",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. Wherever you go, own the moment.</p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for warmth. Designed for those who push limits. </p><p><strong>Fit:</strong> True to size with a cropped feel. Want an oversized fit? <strong>Size up.</strong></p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 90,
           "salePrice": 70,
           "sale": true,
@@ -137,7 +137,7 @@
         {
           "id": 12,
           "name": "Outshine Track Pants - Black",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. </p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -148,7 +148,7 @@
         {
           "id": 13,
           "name": "Outshine Track Pants - White",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. </p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
@@ -159,7 +159,7 @@
         {
           "id": 14,
           "name": "Outshine Track Pants - Pink",
-          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. Wherever you go, own the moment.</p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
+          "description": "<p>Reflective detailing. Premium comfort. Double-layered for ultimate warmth. Built for those who defy limits. </p><p><strong>Own the moment. Shine brighter. Take What’s Ours.</strong></p>",
           "price": 80,
           "salePrice": null,
           "sale": false,
