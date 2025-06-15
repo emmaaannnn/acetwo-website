@@ -11,56 +11,71 @@
 
 /* Text */
 .text-content {
-    max-width: 750px;
+    max-width: 1100px;
     width: 100%;
     margin: 0 auto;
-    padding-top: 40px;
+    padding: 0 40px;
+    padding-top: 2.5rem;
+    box-sizing: border-box;
 }
 
 .text-content h1 {
     text-align: left;
+    font-size: 2rem;
 }
 
 .text-content h2 {
-    margin-top: 50px;
+    margin-top: 3rem;
     text-align: left;
+    font-size: 1.6rem;
 }
 
 .text-content h3 {
-    margin-top: 50px;
+    margin-top: 2.5rem;
     text-align: center;
+    font-size: 1.4rem;
 }
 
-.text-content p, li {
+.text-content p,
+.text-content li {
     text-align: left;
     line-height: 1.6;
-    margin-bottom: 20px;
+    margin-bottom: 1.2rem;
+    font-size: 1rem;
 }
 
-/* -------- TABLET Styles -------- */
-@media (max-width: 768px) {
+/* -------- Responsive Styles -------- */
 
-
+/* Tablet and down */
+@media (max-width: 767px) {
     .text-content {
-        max-width: 700px;
-        width: 100%;
-        margin: 0 auto;
-        padding-top: 40px;
+        padding: 0 30px;
+        padding-top: 2rem;
+    }
+
+    .text-content h1 {
+        font-size: 1.8rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.5rem;
+    }
+
+    .text-content h3 {
+        font-size: 1.3rem;
+    }
+
+    .text-content p,
+    .text-content li {
+        font-size: 0.95rem;
     }
 }
 
-
-
-/* -------- MOBILE Styles -------- */
-@media (max-width: 425px) {
-    .text-content {
-        width: 380px;
-    }
-}
-
-@media (max-width: 375px) {
-    .text-content {
-        width: 330px;
+/* Mobile */
+@media (max-width: 480px) {
+     .text-content {
+        padding: 0 20px;
+        padding-top: 1.5rem;
     }
 
     .text-content h1 {
@@ -68,20 +83,40 @@
     }
 
     .text-content h2 {
-        font-size: 1.2rem;
+        font-size: 1.25rem;
     }
 
     .text-content h3 {
         font-size: 1.1rem;
     }
 
-    .text-content p, li {
+    .text-content p,
+    .text-content li {
         font-size: 0.9rem;
     }
 }
 
+/* Very small devices */
 @media (max-width: 320px) {
     .text-content {
-        width: 280px;
+        padding: 0 10px;
+        padding-top: 1rem;
+    }
+
+    .text-content h1 {
+        font-size: 1.3rem;
+    }
+
+    .text-content h2 {
+        font-size: 1.1rem;
+    }
+
+    .text-content h3 {
+        font-size: 1rem;
+    }
+
+    .text-content p,
+    .text-content li {
+        font-size: 0.85rem;
     }
 }
