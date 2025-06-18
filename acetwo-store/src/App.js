@@ -8,7 +8,7 @@ import ProtectedRoute from "./components/protectedRoute";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={<LockScreen />} />
         <Route path="/support" element={<FAQ />} />
