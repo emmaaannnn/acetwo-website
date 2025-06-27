@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import "../styles/lockScreen.css"; 
 import passwordData from "../data/password.json"
@@ -8,6 +8,13 @@ const LockScreen = () => {
   const navigate = useNavigate();
   const storedPassword = passwordData.password;
   const [error, setError] = useState("");
+
+  useEffect(() => {
+    if (storedPassword === null || storedPassword === "") {
+      sessionStorage.setItem("authenticated", "true");
+      navigate("/home");
+    }
+  }, [storedPassword, navigate]);
 
   const handleUnlock = () => {
     if (password === storedPassword) {

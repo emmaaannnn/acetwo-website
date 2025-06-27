@@ -106,7 +106,8 @@
           "price": 90,
           "salePrice": null,
           "sale": false,
-          "outOfStock": true,
+          "availableSizes": ["S", "L", "XL", "XXL"],
+          "outOfStock": false,
           "imageUrl": "/products/OutshineSet/BlackJacket/BlackFront.png",
           "imageUrl2": "/products/OutshineSet/BlackJacket/BlackBack.png"
         },
