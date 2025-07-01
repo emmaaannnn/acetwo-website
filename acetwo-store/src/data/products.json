@@ -118,7 +118,7 @@
           "price": 90,
           "salePrice": null,
           "sale": false,
-          "availableSizes": ["S", "M", "L", "XL", "XXL"],
+          "availableSizes": ["M", "L", "XL", "XXL"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineSet/WhiteJacket/WhiteFront.png",
           "imageUrl2": "/products/OutshineSet/WhiteJacket/WhiteBack.png"
@@ -142,7 +142,8 @@
           "price": 80,
           "salePrice": null,
           "sale": false,
-          "outOfStock": true,
+          "availableSizes": ["S", "XL", "XXL"],
+          "outOfStock": false,
           "imageUrl": "/products/OutshineSet/BlackPants/BlackFront.png",
           "imageUrl2": "/products/OutshineSet/BlackPants/BlackBack.png"
         },
