@@ -118,7 +118,7 @@
           "price": 90,
           "salePrice": null,
           "sale": false,
-          "availableSizes": ["M", "L", "XL", "XXL"],
+          "availableSizes": ["S", "L", "XL", "XXL"],
           "outOfStock": false,
           "imageUrl": "/products/OutshineSet/WhiteJacket/WhiteFront.png",
           "imageUrl2": "/products/OutshineSet/WhiteJacket/WhiteBack.png"
